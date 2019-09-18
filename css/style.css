@@ -5,6 +5,11 @@ html, body {
     margin: 0;
     padding: 0;
 }
+div.scroll {
+    overflow: auto;
+    height: 30px;
+    width: 310px;
+}
 .blue-icons {
     color: #007bff;
 }
@@ -139,8 +144,11 @@ button.btn-2 {
 
 .mid {
     background-color: #f8f9fa;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 20px 0 20px 0; 
+}
+.p-right {
+    width: 350px;
+    text-align: left;
 }
 .border-r {
     border-right: 4px solid #fff;
