@@ -10,6 +10,18 @@ div.scroll {
     height: 30px;
     width: 310px;
 }
+.ta-left {
+    text-align: left;
+}
+.themes-img {
+    height: 140px;
+    width: 260px;
+}
+.half { /* hr tags */
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 50%;
+}
 .blue-icons {
     color: #007bff;
 }
@@ -92,13 +104,25 @@ ul {
 }
 .col {
     width: 580px;
-    margin: 40px;
+    padding: 60px;
 }
 .main-text h1 {
     color:#7952b3;
     font-size: 3em;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.m-btn {
+    border-radius: 4px;
+    border: 1px solid #007BFF;
+    font-size: 1.2em;
+    background-color: #f8f9fa;
+    padding: 6px 10px 6px 10px;
+}
+.m-btn:hover {
+    color: #fff;
+    background-color: #007BFF;
 }
 
 
@@ -172,7 +196,6 @@ button.btn-2 {
 .td-none {
     text-decoration: none;
 }
-
 
 .footer {
     background-color: #f7f7f7;
