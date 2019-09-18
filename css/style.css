@@ -5,6 +5,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.blue-icons {
+    color: #007bff;
+}
+.lighter {
+    font-weight: lighter;
+}
 .flex {
     display: flex;
 }
@@ -133,8 +139,12 @@ button.btn-2 {
 
 .mid {
     background-color: #f8f9fa;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
+.border-r {
+    border-right: 4px solid #fff;
+}
 /* ads */
 .ad {
     padding: 20px;
@@ -151,11 +161,15 @@ button.btn-2 {
     width: 200px;
     padding-right: 5px;
 }
+.td-none {
+    text-decoration: none;
+}
 
 
 .footer {
     background-color: #f7f7f7;
     color: #000;
+    border-top: 4px solid #fff;
 }
 
 .dropbtn {
