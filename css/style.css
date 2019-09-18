@@ -81,6 +81,9 @@ div.scroll {
 .active {
     color: white;
 }
+.nav ul {
+    align-items: center;
+}
 
 ul {
     list-style: none;
@@ -112,7 +115,9 @@ ul {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
+span.install {
+    color: #336666;
+}
 .m-btn {
     border-radius: 4px;
     border: 1px solid #007BFF;
