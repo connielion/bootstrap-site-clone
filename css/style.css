@@ -5,11 +5,38 @@ html, body {
     margin: 0;
     padding: 0;
 }
-div.scroll {
-    overflow: auto;
-    height: 30px;
-    width: 310px;
+.mid {
+    background-color: #f8f9fa;
+    padding-top: 20px 0px 20px 0px; 
+    
 }
+.scrollbar1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 300px;
+    height: 40px;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+.scrollbar2 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 300px;
+    height: 90px;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+code .code {
+    margin: 0;
+    padding: 0px;
+    color: #000;
+    
+}
+
+
 .ta-left {
     text-align: left;
 }
@@ -84,7 +111,9 @@ div.scroll {
 .nav ul {
     align-items: center;
 }
-
+.fab:hover {
+    color: #fff;
+}
 ul {
     list-style: none;
 }
@@ -171,10 +200,6 @@ button.btn-2 {
     font-family: 'Roboto', sans-serif;
 }
 
-.mid {
-    background-color: #f8f9fa;
-    padding-top: 20px 0 20px 0; 
-}
 .p-right {
     width: 350px;
     text-align: left;
